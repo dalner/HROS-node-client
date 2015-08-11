@@ -1,9 +1,8 @@
-/*
- *   HROS_JS.js
- *
- *   Author: Daniel Alner
- *
- */
+/************************************************
+*** Copyright (C) Jul 2015 Daniel Alner
+*** HROS API
+*** GNU GENERAL PUBLIC LICENSE
+************************************************/
 
 var socket;
 var connectionStatus = null;

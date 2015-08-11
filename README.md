@@ -1,6 +1,9 @@
 #Socket Connection Client API
 Socket Connection Client API gives you an easy to use javascript function API calls to manage the underlying socket.io connections. It helps manage dropped socket connections, state changes and other diagnostic information. It will be extended to support other items as the node server development and its API progresses.
 
+#Maintainer
+Daniel Alner  
+dalner.dev@gmail.com  
 
 #Getting started
 First install all dependencies using [npm](http://npmjs.org/): 
@@ -97,8 +100,8 @@ This will likely return various states of the servos, such as ERROR, DISCONNECTE
 var servoValues = varName.CheckServos()
 ```
 
-##Battery Levels **UNIMPLEMENTED**
-Will return the level of battery in some integer form. Likely in a form of a percentage, mAH value or integer. 
+##Battery Levels
+Returns an integer value, testing required to understand meaning.
 ```js
 var servoValues = varName.BatteryLevel()
 ```
